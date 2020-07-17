@@ -1,0 +1,16 @@
+PODS:
+  - JYSwifter (0.1.1)
+
+DEPENDENCIES:
+  - JYSwifter (from `../`)
+
+EXTERNAL SOURCES:
+  JYSwifter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYSwifter: d8e88e7ce71ed4159bce7bdc4fa02f3e90c6554f
+
+PODFILE CHECKSUM: 4faa045d9575b37b9f10d7ca2c7a4e72ca6098c1
+
+COCOAPODS: 1.9.1

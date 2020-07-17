@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75727A938E585742BC6AA20F /* Pods-JYSwifter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYSwifter_Example.debug.xcconfig"; path = "Target Support Files/Pods-JYSwifter_Example/Pods-JYSwifter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACDB15B3D1A0DBC74EAE8F5C /* Pods-JYSwifter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYSwifter_Tests.release.xcconfig"; path = "Target Support Files/Pods-JYSwifter_Tests/Pods-JYSwifter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ADBF5AEFC7E05531124D8D49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B00D94389802ED95D544CEDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ADBF5AEFC7E05531124D8D49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B00D94389802ED95D544CEDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE080C0783906E67439A2F34 /* Pods-JYSwifter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYSwifter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JYSwifter_Tests/Pods-JYSwifter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5028ACC464EEC2D9BD72A77 /* Pods_JYSwifter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYSwifter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A05A445D2BECA5595E6935 /* JYSwifter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JYSwifter.podspec; path = ../JYSwifter.podspec; sourceTree = "<group>"; };
+		F8A05A445D2BECA5595E6935 /* JYSwifter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JYSwifter.podspec; path = ../JYSwifter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				BE080C0783906E67439A2F34 /* Pods-JYSwifter_Tests.debug.xcconfig */,
 				ACDB15B3D1A0DBC74EAE8F5C /* Pods-JYSwifter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				EF9ECB7360F1992BF19C2451 /* [CP] Embed Pods Frameworks */,
+				EE1906A57612C651A277AD47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9XR5X224JZ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -306,7 +307,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF9ECB7360F1992BF19C2451 /* [CP] Embed Pods Frameworks */ = {
+		EE1906A57612C651A277AD47 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -478,7 +479,9 @@
 			baseConfigurationReference = 75727A938E585742BC6AA20F /* Pods-JYSwifter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XR5X224JZ;
 				INFOPLIST_FILE = JYSwifter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +496,9 @@
 			baseConfigurationReference = 5EFB826138F69D86BC0E9D58 /* Pods-JYSwifter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XR5X224JZ;
 				INFOPLIST_FILE = JYSwifter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
