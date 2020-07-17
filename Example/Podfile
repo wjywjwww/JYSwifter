@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JYSwifter_Example' do
+  pod 'JYSwifter', :path => '../'
+
+  target 'JYSwifter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
