@@ -112,8 +112,10 @@
 		126DADEE1CC17F7ED21C023E37216AAE /* JYSwifter */ = {
 			isa = PBXGroup;
 			children = (
-				34A08F2E24DBDDC100C8F191 /* Tool */,
-				34A08F2D24DBDD6300C8F191 /* Extension */,
+				19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */,
+				0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */,
+				34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */,
+				34A08F2F24DBDDD500C8F191 /* JYDelayTool.swift */,
 				5D91C38B9A1A371753FB6255AEF40BC9 /* Pod */,
 				9A8791F0ED0CBC5A6207EE39C4E289EB /* Support Files */,
 			);
@@ -127,24 +129,6 @@
 				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		34A08F2D24DBDD6300C8F191 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */,
-				0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */,
-				34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		34A08F2E24DBDDC100C8F191 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				34A08F2F24DBDDD500C8F191 /* JYDelayTool.swift */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		5D91C38B9A1A371753FB6255AEF40BC9 /* Pod */ = {

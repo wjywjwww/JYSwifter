@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
   
-  s.source_files = 'JYSwifter/Classes/*.swift'
+  s.source_files = 'JYSwifter/Classes/Tool/*.swift','JYSwifter/Classes/Extension/*.swift'
   s.frameworks = 'UIKit'
   # s.resource_bundles = {
   #   'JYSwifter' => ['JYSwifter/Assets/*.png']
