@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JYSwifter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Swift 工程基础框架扩展 以及工具文件'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,6 @@ TODO: Add long description of the pod here.
   s.swift_versions = '5.0'
   
   s.source_files = 'JYSwifter/Classes/*.swift'
-  s.public_header_files = 'Pod/Classes/*.swift'
   s.frameworks = 'UIKit'
   # s.resource_bundles = {
   #   'JYSwifter' => ['JYSwifter/Assets/*.png']

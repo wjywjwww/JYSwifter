@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		17B51039E1515A6C64FD6BF75E3FF286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		2A7D2293754F92C84CDFD239A9955D82 /* Range+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */; };
+		34A08F2C24DBD40C00C8F191 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */; };
 		3D41FB7968D8368DC55C320A1AA4E101 /* Pods-JYSwifter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB737069FC5C091EADF9900EE6622DF /* Pods-JYSwifter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F6958441B2537A1DBB9276333C2700C /* Pods-JYSwifter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B97BC3BFE407AAAB06AF7ACDCC0F3A0 /* Pods-JYSwifter_Example-dummy.m */; };
 		5A26A972AC224125573AA6FB532D4CD7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */; };
@@ -39,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A6870924450F455E57AC0269D47EBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		02A6870924450F455E57AC0269D47EBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		05717CF3E03C6D3A313186D5C83B37BD /* Pods-JYSwifter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYSwifter_Tests-dummy.m"; sourceTree = "<group>"; };
 		06658E827ED4CC546EE84F339CEFB3EF /* Pods-JYSwifter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYSwifter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0772FB25BE014B15D0BF5F05E52D9703 /* JYSwifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYSwifter.release.xcconfig; sourceTree = "<group>"; };
@@ -50,28 +51,29 @@
 		1BB59677B7FB8D158D666CECF32191BC /* Pods-JYSwifter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYSwifter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		221D3C6FC53CE1A9DBE65D7ADF3D1203 /* JYSwifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYSwifter-prefix.pch"; sourceTree = "<group>"; };
 		2B97BC3BFE407AAAB06AF7ACDCC0F3A0 /* Pods-JYSwifter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYSwifter_Example-dummy.m"; sourceTree = "<group>"; };
-		2EC9C6967B1F5E500CEDEE6A7849F606 /* Pods_JYSwifter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYSwifter_Tests.framework; path = "Pods-JYSwifter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC9C6967B1F5E500CEDEE6A7849F606 /* Pods_JYSwifter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYSwifter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		3A04566092AF763B28F55A6EB23FEF42 /* Pods-JYSwifter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYSwifter_Tests.modulemap"; sourceTree = "<group>"; };
 		3E618760B3CFE2E01D0153BC1F965C84 /* JYSwifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYSwifter-umbrella.h"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		47BF8B362DB6EC3789C0D9A0BA326C09 /* JYSwifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYSwifter.framework; path = JYSwifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BF8B362DB6EC3789C0D9A0BA326C09 /* JYSwifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JYSwifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A476E3AFDE3EE1D6BD7D51994EB3E89 /* Pods-JYSwifter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYSwifter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		500E997D260AF8033C2922EA5494B105 /* Pods-JYSwifter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYSwifter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8877148D630084E99961AFC83C810458 /* JYSwifter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYSwifter-Info.plist"; sourceTree = "<group>"; };
 		88D510B734B80C5894164909D2624E5E /* Pods-JYSwifter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYSwifter_Example.modulemap"; sourceTree = "<group>"; };
 		8EE39FE9C2AE7E4C46108EF8F10CCF72 /* Pods-JYSwifter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYSwifter_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9D3830F0F0E9D896D95832FFD6391F2 /* Pods_JYSwifter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYSwifter_Example.framework; path = "Pods-JYSwifter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9D3830F0F0E9D896D95832FFD6391F2 /* Pods_JYSwifter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYSwifter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF489C47B4D9B3B6AF08FDAED717F3D /* Pods-JYSwifter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYSwifter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1324EBF87F6F0BB6464C064A2C277CB /* Pods-JYSwifter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYSwifter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B4CEC113E5DFFF71937C70E130263716 /* JYSwifter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JYSwifter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4CEC113E5DFFF71937C70E130263716 /* JYSwifter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JYSwifter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAF6129ED6D590395DD61BB1BF86FF1B /* JYSwifter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYSwifter.debug.xcconfig; sourceTree = "<group>"; };
 		D9241F306AE14B6EC979E9E43775B70B /* Pods-JYSwifter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYSwifter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DAB737069FC5C091EADF9900EE6622DF /* Pods-JYSwifter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYSwifter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DC4060ADF593B9B0290ED9337F4D919E /* Pods-JYSwifter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYSwifter_Tests-Info.plist"; sourceTree = "<group>"; };
 		DEEAB424994C011DC7993A9347A3CFA7 /* JYSwifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYSwifter-dummy.m"; sourceTree = "<group>"; };
-		E59BE98A33FB66883103D15FA6B6F104 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E59BE98A33FB66883103D15FA6B6F104 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E5C6EBF555E3B95F21ABF2081B860033 /* Pods-JYSwifter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYSwifter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5C500841D4C0B119BCDB1E5B3B435BB /* Pods-JYSwifter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYSwifter_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 			children = (
 				19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */,
 				0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */,
+				34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */,
 				5D91C38B9A1A371753FB6255AEF40BC9 /* Pod */,
 				9A8791F0ED0CBC5A6207EE39C4E289EB /* Support Files */,
 			);
@@ -391,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6028E58BEF28F10B9A19F5563C8F3CE6 /* JYSwifter-dummy.m in Sources */,
+				34A08F2C24DBD40C00C8F191 /* UIDevice+Extension.swift in Sources */,
 				2A7D2293754F92C84CDFD239A9955D82 /* Range+Extension.swift in Sources */,
 				5A26A972AC224125573AA6FB532D4CD7 /* String+Extension.swift in Sources */,
 			);
@@ -734,8 +738,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
