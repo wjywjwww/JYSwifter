@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JYSwifter'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'Swift 工程基础框架扩展 以及工具文件'
 
 # This description is used to generate tags and improve search results.
