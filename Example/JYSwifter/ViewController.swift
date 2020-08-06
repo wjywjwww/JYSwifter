@@ -9,6 +9,13 @@
 import UIKit
 import JYSwifter
 
+/*
+ 首先提交修改
+ 然后打标签标签里面的值就是版本号 同时也需要更新 JYSwifter.podspec 里面的 s.version的值
+ pod spec lint JYSwifter.podspec --verbose
+ pod trunk push JYSwifter.podspec
+ **/
+
 class ViewController: UIViewController {
     var someProperty = "Hello"
     override func viewDidLoad() {

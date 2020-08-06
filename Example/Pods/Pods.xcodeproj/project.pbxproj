@@ -10,6 +10,7 @@
 		17B51039E1515A6C64FD6BF75E3FF286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		2A7D2293754F92C84CDFD239A9955D82 /* Range+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */; };
 		34A08F2C24DBD40C00C8F191 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */; };
+		34A08F3024DBDDD500C8F191 /* JYDelayTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A08F2F24DBDDD500C8F191 /* JYDelayTool.swift */; };
 		3D41FB7968D8368DC55C320A1AA4E101 /* Pods-JYSwifter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB737069FC5C091EADF9900EE6622DF /* Pods-JYSwifter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F6958441B2537A1DBB9276333C2700C /* Pods-JYSwifter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B97BC3BFE407AAAB06AF7ACDCC0F3A0 /* Pods-JYSwifter_Example-dummy.m */; };
 		5A26A972AC224125573AA6FB532D4CD7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */; };
@@ -44,16 +45,17 @@
 		05717CF3E03C6D3A313186D5C83B37BD /* Pods-JYSwifter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYSwifter_Tests-dummy.m"; sourceTree = "<group>"; };
 		06658E827ED4CC546EE84F339CEFB3EF /* Pods-JYSwifter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYSwifter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0772FB25BE014B15D0BF5F05E52D9703 /* JYSwifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYSwifter.release.xcconfig; sourceTree = "<group>"; };
-		0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "JYSwifter/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		142278A35D76AA1CED0C189298EF998C /* JYSwifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYSwifter.modulemap; sourceTree = "<group>"; };
 		14CEED543779D6E595260D97684923EE /* Pods-JYSwifter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYSwifter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Range+Extension.swift"; path = "JYSwifter/Classes/Range+Extension.swift"; sourceTree = "<group>"; };
+		19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Range+Extension.swift"; sourceTree = "<group>"; };
 		1BB59677B7FB8D158D666CECF32191BC /* Pods-JYSwifter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYSwifter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		221D3C6FC53CE1A9DBE65D7ADF3D1203 /* JYSwifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYSwifter-prefix.pch"; sourceTree = "<group>"; };
 		2B97BC3BFE407AAAB06AF7ACDCC0F3A0 /* Pods-JYSwifter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYSwifter_Example-dummy.m"; sourceTree = "<group>"; };
 		2EC9C6967B1F5E500CEDEE6A7849F606 /* Pods_JYSwifter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYSwifter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		34A08F2F24DBDDD500C8F191 /* JYDelayTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYDelayTool.swift; sourceTree = "<group>"; };
 		3A04566092AF763B28F55A6EB23FEF42 /* Pods-JYSwifter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYSwifter_Tests.modulemap"; sourceTree = "<group>"; };
 		3E618760B3CFE2E01D0153BC1F965C84 /* JYSwifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYSwifter-umbrella.h"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -110,9 +112,8 @@
 		126DADEE1CC17F7ED21C023E37216AAE /* JYSwifter */ = {
 			isa = PBXGroup;
 			children = (
-				19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */,
-				0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */,
-				34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */,
+				34A08F2E24DBDDC100C8F191 /* Tool */,
+				34A08F2D24DBDD6300C8F191 /* Extension */,
 				5D91C38B9A1A371753FB6255AEF40BC9 /* Pod */,
 				9A8791F0ED0CBC5A6207EE39C4E289EB /* Support Files */,
 			);
@@ -126,6 +127,24 @@
 				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34A08F2D24DBDD6300C8F191 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19A33FE13A1565365FE57D5DDE5AAFB3 /* Range+Extension.swift */,
+				0816D936FAF7C79F4A6A6556F91E6DFD /* String+Extension.swift */,
+				34A08F2B24DBD40C00C8F191 /* UIDevice+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		34A08F2E24DBDDC100C8F191 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				34A08F2F24DBDDD500C8F191 /* JYDelayTool.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		5D91C38B9A1A371753FB6255AEF40BC9 /* Pod */ = {
@@ -395,6 +414,7 @@
 			files = (
 				6028E58BEF28F10B9A19F5563C8F3CE6 /* JYSwifter-dummy.m in Sources */,
 				34A08F2C24DBD40C00C8F191 /* UIDevice+Extension.swift in Sources */,
+				34A08F3024DBDDD500C8F191 /* JYDelayTool.swift in Sources */,
 				2A7D2293754F92C84CDFD239A9955D82 /* Range+Extension.swift in Sources */,
 				5A26A972AC224125573AA6FB532D4CD7 /* String+Extension.swift in Sources */,
 			);

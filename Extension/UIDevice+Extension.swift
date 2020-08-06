@@ -9,7 +9,6 @@ import Foundation
 extension UIDevice{
     /// iPhoneX、iPhoneXR、iPhoneXs、iPhoneXs Max等
     /// 判断刘海屏，返回true表示是刘海屏
-    ///
     var isNotchScreen: Bool {
         if UIDevice.current.userInterfaceIdiom == .pad {
             return false
